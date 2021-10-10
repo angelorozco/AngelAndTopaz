@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.realBody {
+    margin-top:50px;
+}
+
+#header-img{
+    padding:20px;
+    max-width: 300px;
+    display:block;
+}
+
+#nav-bar {
+    padding:20px;
+}
+
+.nav-link {
+display: inline;
+}
+
+.blank {
+    height: 2000px;
+}
