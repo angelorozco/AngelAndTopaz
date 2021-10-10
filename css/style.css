@@ -1,24 +1,40 @@
+@media  (max-width: 400px){
+    body {
+        background-color: lightgrey;
+
+    }
+}
+
+body {
+    color: black;
+    background-color: white;
+    
+}
 header {
     position: fixed;
-    display: flex;
+    display: inline-flex;
     top: 0;
     width: 100%;
     background-color: white;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .realBody {
     margin-top:50px;
+    
 }
 
 #header-img{
     padding:20px;
     max-width: 300px;
-    display:block;
+    display:flex;
+    flex:1;
 }
 
 #nav-bar {
     padding:20px;
+    display:flex;
 }
 
 .nav-link {
@@ -28,3 +44,4 @@ display: inline;
 .blank {
     height: 2000px;
 }
+
